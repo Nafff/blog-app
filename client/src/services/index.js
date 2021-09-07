@@ -1,0 +1,1 @@
+export const baseURL = `https://taco-gang-blog-app.herokuapp.com/api/posts`
