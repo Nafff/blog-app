@@ -1,10 +1,11 @@
-import './App.css';
-import { Route, Link, Switch } from 'react-router-dom'
-import Home from './screens/Home/Home'
-import Posts from './screens/Posts/Posts'
-import PostCreate from './screens/PostCreate/PostCreate'
-import PostDetails from './screens/PostDetails/PostDetails'
-import PostEdit from './screens/PostEdit/PostEdit'
+import "./App.css";
+import { Route, Link, Switch } from "react-router-dom";
+import Home from "./screens/Home/Home";
+import "./screens/Home/Home.css";
+import Posts from "./screens/Posts/Posts";
+import PostCreate from "./screens/PostCreate/PostCreate";
+import PostDetails from "./screens/PostDetails/PostDetails";
+import PostEdit from "./screens/PostEdit/PostEdit";
 
 function App() {
   return (
