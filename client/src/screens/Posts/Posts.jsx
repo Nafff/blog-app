@@ -13,7 +13,7 @@ function Posts() {
   });
 
   return (
-    <Layout>
+    // <Layout>
       <div className="products">
         {posts.map((post) => (
           <Post
@@ -24,7 +24,7 @@ function Posts() {
           />
         ))}
       </div>
-    </Layout>
+    // </Layout>
   );
 }
 
