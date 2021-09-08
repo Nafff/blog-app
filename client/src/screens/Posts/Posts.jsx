@@ -1,6 +1,6 @@
 import "./Posts.css";
 import { useState, useEffect } from "react";
-import Post from ".../components/Post/Post";
+import Post from "../../components/Post/Post";
 
 function Posts() {
   const [posts, setPosts] = useState([]);
