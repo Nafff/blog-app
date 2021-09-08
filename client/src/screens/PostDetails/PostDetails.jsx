@@ -1,11 +1,13 @@
 function PostDetails(props) {
 
   const {title, author, details, relevantLinks} = props.posts
-console.log(props)
+
 
   if (!props.posts) {
     return <h1>No posts found!</h1>
   }
+
+
 
   return (
     <>
