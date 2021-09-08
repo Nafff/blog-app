@@ -1,0 +1,12 @@
+.create-form {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-name,
+.input-author,
+.input-details {
+  margin: 15px;
+}
