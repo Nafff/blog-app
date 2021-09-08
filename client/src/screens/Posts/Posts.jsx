@@ -1,6 +1,21 @@
+import './Posts.css'
+import { useState, useEffect } from 'react'
+
 function Posts() {
+  const [posts, setPosts] = useState([])
+
+  useEffect(() => {
+    const getPosts = async () => {
+      const 
+    }
+  })
+
   return (
-    <h1>These are kool posts</h1>
+    <Layout>
+      <div className='products'>
+
+      </div>
+    </Layout>
   )
 }
 
