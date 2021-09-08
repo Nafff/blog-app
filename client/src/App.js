@@ -4,6 +4,7 @@ import Home from "./screens/Home/Home";
 import "./screens/Home/Home.css";
 import Posts from "./screens/Posts/Posts";
 import PostCreate from "./screens/PostCreate/PostCreate";
+import "./screens/PostCreate/PostCreate.css";
 import PostDetails from "./screens/PostDetails/PostDetails";
 import PostEdit from "./screens/PostEdit/PostEdit";
 
