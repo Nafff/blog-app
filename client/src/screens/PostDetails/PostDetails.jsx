@@ -7,7 +7,7 @@ function PostDetails(props) {
     return <h1>No posts found!</h1>
   }
 
-
+  const findPost = props.posts.find()
 
   return (
     <>
